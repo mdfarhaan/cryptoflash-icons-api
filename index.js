@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const fs = require("fs");
+const port = process.env.PORT || 5000;
 
 // svg and varient
 app.get("/:coin", (req, res) => {
@@ -80,6 +81,6 @@ app.get("/:size/:varient/:coin", (req, res) => {
   });
 });
 
-app.listen(3000, function () {
-  console.log("Listening on http://localhost:3000/");
+app.listen(port, function () {
+  console.log("Listening on Port: " + port);
 });
