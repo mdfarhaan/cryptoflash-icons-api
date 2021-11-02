@@ -2,17 +2,20 @@
   "name": "cryptoflash_icon",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "a.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node a.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
