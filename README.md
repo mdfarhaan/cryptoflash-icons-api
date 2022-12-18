@@ -5,7 +5,7 @@ Public API to get crypto currency icons
 ## API
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/:coin
+GET https://crypto-icons.mdfarhaan.ml/:coin
 ```
 
 > By default the API returns the icon in svg format
@@ -13,39 +13,39 @@ GET https://cryptoflash-icons-api.herokuapp.com/:coin
 ##### Examples
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/doge
+GET https://crypto-icons.mdfarhaan.ml/doge
 ```
 
 ### SVG Varients
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/svg/:varient/:coin
+GET https://crypto-icons.mdfarhaan.ml/svg/:varient/:coin
 ```
 
 ##### Examples
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/svg/icon/doge
+GET https://crypto-icons.mdfarhaan.ml/svg/icon/doge
 ```
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/svg/black/doge
+GET https://crypto-icons.mdfarhaan.ml/svg/black/doge
 ```
 
 ### Size
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/:size/:coin
+GET https://crypto-icons.mdfarhaan.ml/:size/:coin
 ```
 
 ##### Examples
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/128/doge
+GET https://crypto-icons.mdfarhaan.ml/128/doge
 ```
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/32/doge
+GET https://crypto-icons.mdfarhaan.ml/32/doge
 ```
 
 > Sizes are returned in png format
@@ -53,21 +53,21 @@ GET https://cryptoflash-icons-api.herokuapp.com/32/doge
 ### Size Varients
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/:size/:varient/:coin
+GET https://crypto-icons.mdfarhaan.ml/:size/:varient/:coin
 ```
 
 ##### Examples
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/128/color/doge
+GET https://crypto-icons.mdfarhaan.ml/128/color/doge
 ```
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/32/icon/doge
+GET https://crypto-icons.mdfarhaan.ml/32/icon/doge
 ```
 
 ```
-GET https://cryptoflash-icons-api.herokuapp.com/32/black/doge
+GET https://crypto-icons.mdfarhaan.ml/32/black/doge
 ```
 
 ### Varients
@@ -76,12 +76,5 @@ GET https://cryptoflash-icons-api.herokuapp.com/32/black/doge
 - `white`
 - `color`
 - `icon`
-
-
-
-## Deploy to Heroku
-Deploy your own version to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Icons created and maintained by the [Cryptocurrency](http://cryptoicons.co/) Icons project.
